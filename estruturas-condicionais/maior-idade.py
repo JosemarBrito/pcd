@@ -1,5 +1,5 @@
 MAIOR_IDADE = 18
-
+IDADE_ESPECIAL = 17
 idade = int(input('Informa sua Idade: '))
 
 if idade >= MAIOR_IDADE:
@@ -15,4 +15,13 @@ if idade >= MAIOR_IDADE:
 else:
     print ('Menor de idade, Não pode tirar CNH')
 
-# parado vido em 12.40
+print()
+print('--------------------------------------')
+print()
+
+if idade >= MAIOR_IDADE:
+    print ('Maior de idade, pode tirar a CNH')
+elif idade == IDADE_ESPECIAL:
+    print('Pode fazer aulas teoricas, mas ainda nao pode fazer aulas praticas. ')
+else:
+    print ('Menor de idade, Não pode tirar CNH')
